@@ -176,3 +176,63 @@ a {
   margin: 0;
   border-radius: 30px;
 }
+
+#header.hide {
+  -moz-transition: background 0.2s ease-in-out, height 1s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out, height 1s ease-in-out;
+  -ms-transition: background 0.2s ease-in-out, height 1s ease-in-out;
+  transition: background 0.2s ease-in-out, height 1s ease-in-out;
+  background: none;
+  height: 0;
+}
+
+#header.hide .inner {
+  height: 6em;
+  width: 6em;
+  padding: 2em;
+}
+
+#header.hide .inner .content {
+  opacity: 0;
+}
+
+#header.hide .inner h1 {
+  display: none;
+}
+
+#header.hide .inner h2 {
+  display: none;
+}
+
+#header.hide .button.big {
+  display: none;
+}
+
+#header.hide .button.hidden {
+  text-decoration: none;
+  padding-top: 1.5em;
+  padding-left: 0;
+  padding-right: 0;
+  background: none;
+  display: inline-block;
+}
+
+#header.hide .button.hidden span {
+  display: none;
+}
+
+#header.hide .button.hidden:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+#header.hide .button.hidden:before {
+  content: '\f015';
+  color: #FFF;
+  font-size: 1.5em;
+}
+
