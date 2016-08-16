@@ -316,7 +316,7 @@ a {
   -ms-transition: bottom 0.2s ease;
   transition: bottom 0.2s ease;
   position: fixed;
-  bottom: 20em;
+  bottom: -20em;
   color: #fff;
   left: 0;
   width: 100%;
@@ -434,4 +434,5 @@ ul.icons li {
 #footer .inner .content a, #footer .inner .copyright a {
     color: #FFF;
 }
+
 
