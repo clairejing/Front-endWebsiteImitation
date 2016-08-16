@@ -56,6 +56,47 @@
     box-sizing: border-box;
   }
 
+body {
+    background-color: #fff;
+    color: #444;
+}
+
+body, input, select, textarea {
+  font-family: "Work Sans", sans-serif;
+  font-size: 13pt;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 1680px){
+  body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 11pt;
+  }
+}
 
 
 /*Header*/
@@ -167,6 +208,12 @@ a {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 480) {
+  .button {
+    padding: 0;
+  }
+}
+
 .button.alt {
   background: #FFF;
   color: #e74c3c;
@@ -262,6 +309,14 @@ a {
   -webkit-column-gap: 1em;
   -ms-column-gap: 1em;
   column-gap: 1em;
+}
+
+@media screen and (max-width: 480px) {
+  .columns {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
 }
 
 .image {
