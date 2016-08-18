@@ -132,6 +132,10 @@ body {
 
 /* Banner */
 #banner {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -140,10 +144,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+
   padding: 8em 4em 6em 4em;
   min-height: 70vh;
   background-image: url(../../images/banner.jpg);
@@ -157,25 +158,26 @@ body {
 }
 
 #banner:before {
-  -moz-transition: opacity 1s ease;
-  -webkit-transition: opacity 1s ease;
-  -ms-transition: opacity 1s ease;
-  transition: opacity 1s ease;
-  -moz-transition-delay: 1s;
-  -webkit-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  transition-delay: 1s;
-  content: '';
-  background-color: #42424f;
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0.45;
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+    -moz-transition: opacity 3s ease;
+    -webkit-transition: opacity 3s ease;
+    -ms-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -moz-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+    content: '';
+    background-color: #42424f;
+    display: block;
+    height: 101%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
+
 
 #banner .inner {
   text-align: center;
@@ -221,20 +223,39 @@ a {
 }
 
 #banner .more {
-  background-image: url("images/arrow.svg");
+    background-image: url("images/arrow.svg");
+    background-position: center 1.35em;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid#fff;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.75);
+    height: 4em;
+    width: 4em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 4em;
+    z-index: 2;
+    margin: 0 auto 2em auto;
 }
 
 #banner video {
-  width: auto;
-  height: auto;
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  bottom: 50%;
-  right: 50%;
-  transform: translateX(50%) translateY(50%);
-  overflow: hidden;
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    -ms-transform: translateX(50%) translateY(50%);
+    transform: translateX(50%) translateY(50%);
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
+
+
 
 
 
