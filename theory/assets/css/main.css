@@ -51,7 +51,22 @@
 		box-sizing: border-box;
 	}
 
+	body {
+    color: #9a9a9a;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
 /*Header*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #5385c1;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
 
 #header {
 	color: #d4e0ef;
@@ -149,6 +164,92 @@ a {
   color: rgba(255, 255, 255, 0.55);
   margin-bottom: 1.75em;
 }
+
+section.wrapper {
+	padding: 6em 0;
+}
+
+.flex {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex.flex-3 article {
+	position: relative;
+	width: 28%;
+}
+
+@media screen and (max-width: 980px) {
+	.flex.flex-3 {
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+.flex.flex-3 article:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -2em;
+  top: 0;
+  border-right: 1px solid #dbdbdb;
+  pointer-events: none;
+}
+
+section.wrapper article header {
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.35em;
+}
+
+p {
+	margin: 0 0 2em 0;
+}
+
+.button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	background-color: #5a5a5a;
+  border-radius: 0;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+	display: inline-block;
+  font-weight: 600;
+  height: 2.85em;
+  line-height: 2.95em;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button.special {
+	background-color: #5385c1;
+  color: #ffffff !important;
+}
+
 
 
 
