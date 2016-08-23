@@ -349,6 +349,28 @@ section.wrapper.style1 h3 {
 	margin-bottom: 0;
 }
 
+.align-center {
+  text-align: center;
+}
+
+
+section.special article {
+	text-align: left;
+}
+
+.flex.flex-2 article {
+  width: 47%;
+}
+
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+.image.fit img {
+  width: 100%;
+}
 
 
 
