@@ -372,7 +372,53 @@ section.special article {
   width: 100%;
 }
 
+#footer .inner {
+  border-top: 1px solid #dbdbdb;
+  padding-top: 3em;
+}
 
+#footer .copyright {
+  color: #bbb;
+  font-size: 0.8em;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
 
+#footer .copyright a {
+  color: #bbb;
+  text-decoration: none;
+}
 
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
 
+ul.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+#footer ul.icons li .icon {
+  font-size: 0.58em;
+}
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.icon > .label {
+	display: none;
+}
