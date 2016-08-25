@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+
+#skel-layers-wrapper {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+}
+
+body.landing #header {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#header {
+  background-color: #383b43;
+  color: #fff;
+  font-size: 1.1em;
+  height: 6em;
+  line-height: 6em;
+  width: 100%;
+  z-index: 10000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #474747;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+}
+
+#header h1 {
+  color: #ffffff;
+  line-height: inherit;
+  height: inherit;
+  left: 3em;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #383b43;
+  text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#header h1 a {
+  font-size: 1.25em;
+}
+
+#header nav {
+  height: inherit;
+  line-height: inherit;
+  position: absolute;
+  right: 3em;
+  vertical-align: middle;
+}
+
+#header nav > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+ul li {
+  padding-left: 0.5em;
+}
+
+#header nav > ul > li {
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 2em;
+  border-radius: 4px;
+}
+
+#header nav > ul > li:first-child {
+  margin-left: 0;
+}
+
+body.landing #header nav a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#header nav > ul > li a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  color: #cdced0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#header nav > ul > li .button {
+  background-color: #fff;
+  color: #444 !important;
+  height: 2.25em;
+  line-height: 2.25em;
+  margin-bottom: 0;
+  padding: 0 1em;
+  position: relative;
+  vertical-align: middle;
+  top: -0.075em;
+}
+
+#banner {
+  background-image: url(../../images/dark_tint.png), url(../../images/bokeh_car_lights_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 14em 0em 14em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+#banner h2 {
+  font-size: 4em;
+  color: #ffffff;
+  line-height: 1.25em;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+#banner p {
+  font-size: 1.5em;
+  margin-bottom: 1.75em;
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+ul.actions {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+#banner :last-child {
+  margin-bottom: 0;
+}
+
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+#banner :last-child {
+  margin-bottom: 0;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #3cadd4;
+    border-radius: 30px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button.big {
+  font-size: 1.35em;
+}
