@@ -30,7 +30,7 @@ body {
 
 #header {
   position: relative;
-  color: #fff;
+  background: #fff;
 }
 
 #header .container {
@@ -100,4 +100,11 @@ p, ul, ol, dl, table {
   color: #fff;
   border-radius: 5px;
   background: #e95d3c;
+}
+
+#banner {
+  position: relative;
+  background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
 }
