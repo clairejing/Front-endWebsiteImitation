@@ -216,3 +216,30 @@ ul.style1 li:first-child {
   padding-top: 0;
   border-top: 0;
 }
+
+#featured {
+  display: relative;
+}
+
+#featured .box {
+  background: #fff;
+  padding: 1.4em;
+  font-size: 0.95em;
+}
+
+.image {
+  display: inline-block;
+}
+
+.image.left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+.image img {
+  display: block;
+  width: 100%;
+}
+
+#featured .divider {
+  border-bottom: 1px solid #303030;
+}
