@@ -1,0 +1,73 @@
+html, body {
+	height: 100%；
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+}
+
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#header {
+	position: relative;
+	padding: 3em 0em;
+}
+
+#logo {
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+
+h1, h2 ,h3 {
+	margin: 0;
+	padding: 0;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #0173B2;
+}
+
+#menu {
+	position: absolute;
+	top: 2em;
+	right: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul {
+	display: inline-block;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a {
+	text-decoration: none;
+	padding: 1em 1.5em;
+	font-weight: 400;
+	color: rgba(0, 0, 0, .8);
+}
+
+
