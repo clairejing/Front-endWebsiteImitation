@@ -127,3 +127,36 @@ p {
 	margin-top: 1em;
 }
 
+#page-wrapper {
+	overflow: hidden;
+	padding: 5em 0em;
+	background: #FFF;
+}
+
+.pboxA, .pboxB, .pboxC {
+	width: 384px;
+}
+
+.pboxA, .pboxB {
+	float: left;
+	margin-right: 24px;
+}
+
+.pboxC {
+	float: right;
+}
+
+#page h3 {
+	margin-bottom: 1em;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: rgba(0, 0, 0, .8);
+}
+
+.image {
+	display: inline-block;
+}
+.image-left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
