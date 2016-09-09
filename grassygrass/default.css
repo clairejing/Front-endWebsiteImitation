@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #16a085;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11pt;
+  font-weight: 400;
+  color: #363636;
+}
+
+#wrapper {
+	background: #FFFFF url(images/bg01.png) repeat;
+}
+
+#menu-wrapper {
+	background: #16a085;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#menu {
+	overflow: hidden;
+	height: 100px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0 0;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
